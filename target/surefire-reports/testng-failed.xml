@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="csjobs.model.dao.UserDaoTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="checkApplication"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="getUserById"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="getUserByEmail"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- csjobs.model.dao.UserDaoTest -->
+      <class name="csjobs.model.dao.JobDaoTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="getJobs"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="countCommittees"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- csjobs.model.dao.JobDaoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
